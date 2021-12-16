@@ -30,7 +30,7 @@ jobs:
         run: npm run build
 
       - name: Deploying
-        uses: cutie-di/1690303-mishka-22
+        uses: komnatnaya.github.io/public-test
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FOLDER: ./build
